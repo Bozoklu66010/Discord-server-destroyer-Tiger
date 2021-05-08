@@ -92,7 +92,7 @@ async def mall(ctx):
     for member in list(client.get_all_members()):
         await asyncio.sleep(0)
         try:
-            await member.send("https://discord.gg/RSBzPMqAPN join now")
+            await member.send(" https://discord.gg/RSBzPMqAPN join now ")
         except:
             pass
         print("Action completed: Message all")
